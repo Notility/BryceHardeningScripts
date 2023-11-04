@@ -1,5 +1,6 @@
 #!/bin/bash
 
+iptables -F
 #Flush All previous iptables rules
 iptables -P INPUT ACCEPT
 iptables -P FORWARD ACCEPT
